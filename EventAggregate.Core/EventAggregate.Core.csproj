@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementation\Base\EventAggregateBase.cs" />
     <Compile Include="Implementation\EventAggregate.cs" />
     <Compile Include="Implementation\EventAggregateAsync.cs" />
     <Compile Include="Interfaces\IEventAggregate.cs" />
